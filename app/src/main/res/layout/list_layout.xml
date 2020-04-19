@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fieldradius"
+    android:clickable="true"
+    android:focusable="true"
+    app:chainUseRtl="true"
+    android:id="@+id/card_language"
+    android:foreground="?android:attr/selectableItemBackground"
+>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@drawable/selector">
+
+    <ImageView
+        android:id="@+id/img_job_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/ic_japan" />
+
+    <TextView
+        android:id="@+id/txt_jobs_include"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="Japan"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+        <!--<TextView-->
+            <!--android:id="@+id/txt_translated_name"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_toRightOf="@+id/txt_jobs_include"-->
+            <!--android:text="Japan"-->
+            <!--android:textColor="@color/black"-->
+            <!--android:textSize="17sp" />-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_below="@+id/txt_jobs_include"-->
+            <!--android:id="@+id/language_code"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:text="Code"-->
+            <!--/>-->
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

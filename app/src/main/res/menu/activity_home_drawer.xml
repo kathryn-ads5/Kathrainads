@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="" />
+
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_person_outline"
+            android:title="" />
+
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/ic_search"
+            android:title="" />
+
+        <item
+            android:id="@+id/message"
+            android:icon="@drawable/ic_mail_outline_large"
+            android:title="" />
+        <item
+            android:id="@+id/packages"
+            android:icon="@drawable/ic_price_tag"
+            android:title="" />
+        <item
+            android:id="@+id/myAds"
+            android:icon="@drawable/ic_storage_black_24dp"
+            android:title="" />
+
+        <item
+            android:id="@+id/inActiveAds"
+            android:icon="@drawable/ic_inactive_black_24dp"
+            android:title="" />
+        <item
+            android:id="@+id/featureAds"
+            android:icon="@drawable/ic_feature_black_24dp"
+            android:title="" />
+        <item
+            android:id="@+id/favAds"
+            android:icon="@drawable/ic_favorite_border"
+            android:title="" />
+        <item
+            android:id="@+id/rejectedAds"
+            android:icon="@drawable/ic_forbidden"
+            android:title="" />
+        <item
+            android:id="@+id/expire_sold_Ads"
+            android:icon="@drawable/ic_warning"
+            android:title="" />
+        <item
+            android:id="@+id/most_viewed_Ads"
+            android:icon="@drawable/ic_eye"
+            android:title="" />
+        <item
+            android:id="@+id/nav_shop"
+            android:icon="@drawable/ic_shopping_bag"
+            android:title="" />
+        <item
+            android:id="@+id/nav_sellers"
+            android:icon="@drawable/ic_sellers"
+            android:title="" />
+
+
+    </group>
+    <group
+        android:id="@+id/pages"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/custom"
+            android:title="">
+            <menu>
+
+            </menu>
+        </item>
+    </group>
+    <item
+        android:id="@+id/other"
+        android:title="">
+        <menu>
+            <group
+                android:id="@+id/group2"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_blog"
+                    android:checkableBehavior="single"
+                    android:icon="@drawable/ic_blogger_icon"
+                    android:title="" />
+                <item
+                    android:id="@+id/nav_settings"
+                    android:checkableBehavior="single"
+                    android:icon="@drawable/ic_settings"
+                    android:title="" />
+                <item
+                    android:id="@+id/nav_language"
+                    android:checkableBehavior="single"
+                    android:icon="@drawable/ic_internet"
+                    android:title="" />
+                <item
+                    android:id="@+id/nav_location"
+                    android:checkableBehavior="single"
+                    android:icon="@drawable/ic_worldwide"
+                    android:title="Choose Location" />
+                <item
+                    android:id="@+id/nav_log_out"
+                    android:checkableBehavior="single"
+                    android:icon="@drawable/ic_log_out"
+                    android:title="" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

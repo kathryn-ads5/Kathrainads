@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.stripe:stripe-android:6.1.2@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/020b4f06bf45fe421c0c0bab938cfa21/jetified-stripe-android-6.1.2/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/020b4f06bf45fe421c0c0bab938cfa21/jetified-stripe-android-6.1.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/020b4f06bf45fe421c0c0bab938cfa21/jetified-stripe-android-6.1.2/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.stripe/stripe-android/6.1.2/ccc1abd0893f9fb9a20a33eebd93cf9c934995d/stripe-android-6.1.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.stripe/stripe-android/6.1.2/6fccd7b95baf59595a315b387e7c7550d7c20436/stripe-android-6.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,72 @@
+
+<com.daasuu.bl.BubbleLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="12dp"
+    android:padding="8dp"
+    app:bl_arrowDirection="bottom"
+    app:bl_arrowHeight="18dp"
+    app:bl_arrowPosition="12dp"
+    app:bl_strokeColor="@color/grey_400"
+    app:bl_strokeWidth="1dp"
+    android:layout_alignParentEnd="true"
+    app:bl_arrowWidth="8dp"
+    app:bl_bubbleColor="@android:color/white"
+    app:bl_cornersRadius="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+
+<!--<ScrollView-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent">-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible">
+<!--        <androidx.core.widget.NestedScrollView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:fillViewport="true">-->
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/titlePackages"
+           android:text="tite ha"
+           android:layout_marginBottom="3dp"
+           android:gravity="center"
+           />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/titlePackages"
+            android:background="@color/grey_200"/>
+                <androidx.core.widget.NestedScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fillViewport="true"/>
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/com_facebook_messenger_blue"
+            android:layout_below="@+id/titlePackages"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            />
+
+
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center_vertical"-->
+<!--            android:layout_marginLeft="4dp"-->
+<!--            android:text="BubbleLayout"-->
+<!--            android:textColor="@android:color/holo_red_dark" />-->
+    </RelativeLayout>
+</com.daasuu.bl.BubbleLayout>

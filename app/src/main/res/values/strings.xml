@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Kathryn Ads</string>
+    <string name="facebook_app_id">677054746152369</string>
+    <string name="fb_login_protocol_scheme">fb677054746152369</string>
+
+    <string name="mtn_api_key">18b0995cb913471b97cedde5dd2c47b7</string>
+    <string name="access_token">Enter your mapbox access token here</string>
+    <string name="Admob_app_id">Enter your Admob_app_id here</string>
+
+    <string name="player_error">Error initializing YouTube player: %s</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="_0">0</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_fullscreen_view">activity_fullscreen_view</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="dummy_button">Dummy Button</string>
+
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="mainSection">mainSection</string>
+    <string name="generalSection">generalSection</string>
+
+
+    <string name="appShare">appShare</string>
+    <string name="appRating">appRating</string>
+    <string name="aboutSection">aboutSection</string>
+    <string name="aboutPreference">about</string>
+
+    <string name="versionPreference">versionPreference</string>
+    <string name="feedbackPrefrence">key_send_feedback</string>
+    <string name="faqPreference">faqPreference</string>
+    <string name="p_policyPreference">p_policyPreference</string>
+    <string name="termsPreference">termsPreference</string>
+    <string name="com_facebook_loginview_log_out_button">Log out</string>
+    <string name="com_facebook_loginview_log_in_button">Log in</string>
+
+
+    <string name="com_facebook_loginview_log_in_button_long">Log in with Facebook</string>
+    <string-array name="year_array">
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2023</item>
+        <item>2024</item>
+        <item>2025</item>
+
+    </string-array>
+    <string-array name="month_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: org.osgi:org.osgi.core:4.2.0@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.osgi/org.osgi.core/4.2.0/66ab449ff3aa5c4adfc82c89025cc983b422eb95/org.osgi.core-4.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.osgi/org.osgi.core/4.2.0/abf64928db82bca604f68e2cf156f432b8fb51ea/org.osgi.core-4.2.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.osgi/org.osgi.core/4.2.0/24fae108a96e53a576b819bb0aacb81443920f44/org.osgi.core-4.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

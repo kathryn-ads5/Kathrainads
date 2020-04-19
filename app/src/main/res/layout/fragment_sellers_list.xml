@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".userAndSellers.SellersListFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/sellersRecylerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" />
+    <Button
+        android:id="@+id/btn_loadMore"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/sellersRecylerView"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_shop_filters"
+        android:drawablePadding="10dp"
+        android:layout_marginBottom="10dp"
+        android:drawableStart="@drawable/ic_shop_loadmore"
+        android:fontFamily="@font/montserrat_semibold"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:visibility="visible" />
+    </RelativeLayout>
+</androidx.core.widget.NestedScrollView>

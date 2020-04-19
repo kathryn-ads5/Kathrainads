@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.wonshinhyo:dragrecyclerview:1.0.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6255e8e7b4f4387a2b45401b88367fd3/jetified-dragrecyclerview-1.0.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6255e8e7b4f4387a2b45401b88367fd3/jetified-dragrecyclerview-1.0.5/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.wonshinhyo/dragrecyclerview/1.0.5/9cf34fdb97a76031a63f10ca2c79ffe164fbdb08/dragrecyclerview-1.0.5-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.wonshinhyo/dragrecyclerview/1.0.5/c72337684362ae059562853fbdd33a95ea7d562e/dragrecyclerview-1.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

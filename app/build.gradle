@@ -1,0 +1,129 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    compileSdkVersion 29
+    buildToolsVersion '28.0.3'
+    defaultConfig {
+        applicationId "com.kathryn.kathryn"
+        minSdkVersion 17
+        targetSdkVersion 29
+        versionCode 40
+        multiDexEnabled true
+        versionName "2.3.5"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+        resValue "string", "places_api_key", (project.findProperty("AIzaSyABpJKX8xdmJhLKqkpGYS8hjvjtvtCSJ7g") ?: "AIzaSyABpJKX8xdmJhLKqkpGYS8hjvjtvtCSJ7g")
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    android {
+        configurations.all {
+            resolutionStrategy.force 'com.google.code.findbugs:jsr305:1.3.9'
+        }
+    }
+    productFlavors {
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    lintOptions {
+        checkReleaseBuilds false
+    }
+}
+dependencies {
+    testImplementation 'junit:junit:4.12'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation('androidx.test.espresso:espresso-core:3.1.0', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+
+//necesary libs
+    implementation 'com.github.MasayukiSuda:BubbleLayout:v1.2.1'
+    implementation files('libs/YouTubeAndroidPlayerApi.jar')
+    implementation 'androidx.multidex:multidex:2.0.0'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'com.google.android.gms:play-services-places:17.0.0'
+    implementation 'com.google.android.libraries.places:places:2.1.0'
+    implementation 'com.google.android.gms:play-services-auth:17.0.0'
+    implementation 'com.facebook.android:facebook-android-sdk:5.9.0'
+    implementation 'com.shobhitpuri.custombuttons:google-signin:1.0.0'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'jp.wasabeef:richeditor-android:1.2.2'
+    implementation 'org.sufficientlysecure:html-textview:3.5'
+    implementation 'com.ss.bannerslider:bannerslider:1.8.0'
+    implementation 'com.loopj.android:android-async-http:1.4.9'
+    implementation 'com.stripe:stripe-android:6.1.2'
+    implementation 'com.iarcuschin:simpleratingbar:0.1.5'
+    implementation 'com.google.android.gms:play-services-ads:18.0.0'
+    implementation 'com.google.android.gms:play-services-analytics:17.0.0'
+    implementation 'com.google.firebase:firebase-messaging:20.1.0'
+    implementation 'com.google.firebase:firebase-database:19.2.0'
+    implementation 'com.google.firebase:firebase-core:17.2.2'
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.okhttp3:okhttp:3.10.0'
+    implementation 'com.facebook.fresco:fresco:1.11.0'
+    implementation 'com.romandanylyk:pageindicatorview:1.0.0'
+    implementation 'com.github.Kunzisoft:Android-SwitchDateTimePicker:1.9'
+    implementation 'com.github.victorminerva:AutoResizeEditText:0.1.0'
+    implementation 'net.authorize:accept-sdk-android:1.0.2'
+
+// JSON Parsing
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.xw.repo:bubbleseekbar:3.4'
+    implementation 'com.crystal:crystalrangeseekbar:1.1.3'
+    implementation 'com.github.iwgang:countdownview:2.1.6'
+    implementation 'com.codemybrainsout.rating:ratingdialog:1.0.8'
+//PaypPal
+    implementation('com.paypal.sdk:paypal-android-sdk:2.13.3') {
+        exclude group: 'io.card'
+    }
+    implementation 'com.anjlab.android.iab.v3:library:1.0.44'
+    implementation 'net.cachapa.expandablelayout:expandablelayout:2.9.2'
+    implementation 'com.karumi:dexter:5.0.0'
+    implementation 'com.droidninja:filepicker:2.1.2'
+    implementation 'com.github.bumptech.glide:glide:4.6.1'
+    implementation 'com.wonshinhyo:dragrecyclerview:1.0.5'
+    implementation 'com.github.ybq:AndroidSpinKit:v1.0.0'
+    implementation 'com.mapbox.mapboxsdk:mapbox-android-sdk:8.4.0'
+    implementation 'com.mapbox.mapboxsdk:mapbox-android-plugin-places-v8:0.9.0'
+
+
+//Payment Dependencies
+    implementation 'lk.payhere.sdk:android-payment-sdk:1.0.0'
+    implementation 'com.braintreepayments.api:drop-in:3.7.1'
+    implementation 'com.braintreepayments.gateway:braintree-java:2.105.0'
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.19'
+    implementation 'net.authorize:anet-java-sdk:1.8.1'
+    implementation 'javax.xml.bind:jaxb-api:2.3.0'
+    implementation 'com.sun.xml.bind:jaxb-core:2.3.0'
+    implementation 'javax.xml.stream:stax-api:1.0-2'
+    implementation 'com.sun.xml.bind:jaxb-impl:2.3.0'
+    implementation 'co.paystack.android.design.widget:pinpad:1.0.1'
+    implementation 'co.paystack.android:paystack:3.0.12'
+}
+
+apply plugin: 'com.google.gms.google-services'
+configurations.all {
+    resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+        def requested = details.requested
+        if (requested.group == 'com.android.support') {
+            if (!requested.name.startsWith("multidex")) {
+                details.useVersion '25.3.0'
+            }
+        }
+    }
+}

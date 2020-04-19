@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Kunzisoft:Android-SwitchDateTimePicker:1.9@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4427cef7c06c210d0f87d9fca61b29d2/jetified-Android-SwitchDateTimePicker-1.9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4427cef7c06c210d0f87d9fca61b29d2/jetified-Android-SwitchDateTimePicker-1.9/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Kunzisoft/Android-SwitchDateTimePicker/1.9/6cf492bf5612c25d31c9b3c76145654d546c5bbe/Android-SwitchDateTimePicker-1.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

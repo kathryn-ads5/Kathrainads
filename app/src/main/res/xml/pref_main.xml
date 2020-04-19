@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="@string/mainSection">
+
+    <!--<PreferenceCategory-->
+    <!--android:key="@string/generalSection"-->
+    <!--android:summary=""-->
+    <!--android:title="">-->
+
+
+    <!--</PreferenceCategory>-->
+
+    <!--<PreferenceCategory-->
+    <!--android:key="@string/aboutSection"-->
+    <!--android:summary=""-->
+    <!--android:title="">-->
+    <Preference
+        android:key="@string/aboutPreference"
+        android:summary="" />
+    <Preference
+        android:key="@string/versionPreference"
+        android:summary=""
+        android:title="" />
+    <Preference
+        android:icon="@drawable/ic_share_settings"
+        android:key="@string/appShare"
+        android:summary=""
+        android:title="" />
+    <Preference
+        android:icon="@drawable/ic_star"
+        android:key="@string/appRating"
+        android:summary=""
+        android:title="" />
+
+    <Preference
+        android:key="@string/feedbackPrefrence"
+        android:summary=""
+        android:title="" />
+
+    <!-- preference opens url in browser -->
+    <Preference
+        android:key="@string/faqPreference"
+        android:summary=""
+        android:title="">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="" />
+    </Preference>
+
+    <Preference
+        android:key="@string/p_policyPreference"
+        android:summary=""
+        android:title="">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="" />
+    </Preference>
+
+    <Preference
+        android:key="@string/termsPreference"
+        android:summary=""
+        android:title="">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="" />
+    </Preference>
+
+    <!--</PreferenceCategory>-->
+</PreferenceScreen>

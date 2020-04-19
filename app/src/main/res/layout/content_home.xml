@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.kathryn.kathryn.home.HomeActivity"
+    tools:showIn="@layout/app_bar_home">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/adViewBelow"
+        android:layout_below="@id/adView">
+
+
+        <FrameLayout
+            android:id="@+id/frameContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <LinearLayout
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#dddddd"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:visibility="gone" />
+    <!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+    <!--        android:id="@+id/home"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@id/adView"-->
+    <!--        android:layout_alignParentEnd="true"-->
+    <!--        android:layout_marginStart="10dp"-->
+    <!--        android:layout_marginEnd="20dp"-->
+    <!--        android:layout_marginTop="25dp"-->
+    <!--        android:layout_marginBottom="5dp"-->
+    <!--        android:background="@color/white"-->
+    <!--        android:src="@drawable/ic_home_white_24dp" />-->
+    <!--    <com.github.rubensousa.floatingtoolbar.FloatingToolbar-->
+    <!--        android:id="@+id/floatingToolbar"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="?attr/actionBarSize"-->
+    <!--        android:layout_gravity="bottom"-->
+    <!--        app:floatingMenu="@menu/speeddial" />-->
+
+    <!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+    <!--        android:id="@+id/fab2"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="bottom|end"-->
+    <!--        android:layout_alignParentEnd="true"-->
+    <!--        android:layout_margin="@dimen/fab_margin"-->
+    <!--        android:src="@drawable/ic_home_black_24dp" />-->
+<!--    <com.emredavarci.floatingactionmenu.FloatingActionMenu xmlns:fam="http://schemas.android.com/apk/res-auto"-->
+<!--        android:id="@+id/floatingMenu"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        fam:bgColor="#4ad6bd"-->
+<!--        fam:duration="200"-->
+<!--        fam:firstActionIcon="@drawable/fav_icon"-->
+<!--        fam:fourthActionIcon="@drawable/settings_icon"-->
+<!--        fam:menuIcon="@drawable/default_menu_icon"-->
+<!--        fam:menuIconHeight="30dp"-->
+<!--        fam:menuIconRotateAngle="225"-->
+<!--        fam:menuIconWidth="30dp"-->
+<!--        fam:radius="80dp"-->
+<!--        fam:scaleRatio="3"-->
+<!--        fam:secondActionIcon="@drawable/share_icon"-->
+<!--        fam:shadowWidth="2dp"-->
+<!--        fam:thirdActionIcon="@drawable/search_icon" />-->
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/adViewBelow"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/white"
+        android:src="@drawable/ic_add" />
+
+    <LinearLayout
+        android:id="@+id/adViewBelow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/transparent"
+        android:orientation="vertical"
+        android:paddingBottom="3dp"
+        android:visibility="visible" />
+
+</RelativeLayout>

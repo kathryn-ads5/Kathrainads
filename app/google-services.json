@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "377023818739",
+    "firebase_url": "https://kathryn-793ed.firebaseio.com",
+    "project_id": "kathryn-793ed",
+    "storage_bucket": "kathryn-793ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377023818739:android:81f4c656826afe3de5c086",
+        "android_client_info": {
+          "package_name": "com.kathryn.kathryn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377023818739-jdtrdp21l3bu4dcf9t54c2sgcre06nc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAljeEP7YeNCKnWrSfm6SzIFr5NmN_vPjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377023818739-jdtrdp21l3bu4dcf9t54c2sgcre06nc4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
